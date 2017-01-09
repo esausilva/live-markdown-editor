@@ -1,0 +1,32 @@
+{
+  "name": "live-markdown-editor",
+  "version": "0.1.0",
+  "description": "Responsive GitHub flavored markdown editor built with React.js",
+  "author": "Esau Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "react-scripts": "0.8.4"
+  },
+  "dependencies": {
+    "codemirror": "^5.22.0",
+    "highlight.js": "^9.9.0",
+    "marked": "^0.3.6",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esausilva/live-markdown-editor.git"
+  },
+  "keywords": ["markdown editor","react markdown","react.js","markdown previewer"],
+  "bugs": {
+    "url": "https://github.com/esausilva/live-markdown-editor/issues"
+  },
+  "homepage": "https://github.com/esausilva/live-markdown-editor"
+}
