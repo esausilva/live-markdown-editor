@@ -12,6 +12,9 @@ You can use this editor to preview your markdown files before committing to GitH
  $ npm install -g create-react-app
  $ npm install
  ```
+## Live Demo
+
+[https://esausilva.github.io/live-markdown-editor/](https://esausilva.github.io/live-markdown-editor/)
 
 ## Live Demo
 
