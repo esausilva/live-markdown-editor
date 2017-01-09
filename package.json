@@ -5,6 +5,7 @@
   "author": "Esau Silva",
   "license": "MIT",
   "devDependencies": {
+    "gh-pages": "^0.12.0",
     "react-scripts": "0.8.4"
   },
   "dependencies": {
@@ -18,15 +19,21 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/esausilva/live-markdown-editor.git"
   },
-  "keywords": ["markdown editor","react markdown","react.js","markdown previewer"],
+  "keywords": [
+    "markdown editor",
+    "react markdown",
+    "react.js",
+    "markdown previewer"
+  ],
   "bugs": {
     "url": "https://github.com/esausilva/live-markdown-editor/issues"
   },
-  "homepage": "https://github.com/esausilva/live-markdown-editor"
+  "homepage": "https://esausilva.github.io/live-markdown-editor/"
 }
