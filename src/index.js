@@ -3,10 +3,7 @@ import ReactDOM from 'react-dom';
 import './styles/index.css';
 import MarkdownEditor from './components/MarkdownEditor';
 
-// Remove next two lines after cloning ====
-import {GoogleAnalytics} from './GoogleAnalytics';
-GoogleAnalytics();
-// ========================================
+import './GoogleAnalytics'; // Remove after cloning
 
 ReactDOM.render(
   <MarkdownEditor />,

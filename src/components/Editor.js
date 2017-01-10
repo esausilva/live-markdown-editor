@@ -1,7 +1,7 @@
 import React, {Component, PropTypes} from 'react';
 
 import codemirror from 'codemirror';
-import gfm from 'codemirror/mode/gfm/gfm';
+import 'codemirror/mode/gfm/gfm';
 import 'codemirror/lib/codemirror.css'
 import 'codemirror/theme/base16-light.css'
 
