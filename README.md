@@ -17,6 +17,10 @@ You can use this editor to preview your markdown files before committing to GitH
 
 [https://esausilva.github.io/live-markdown-editor/](https://esausilva.github.io/live-markdown-editor/)
 
+## Useful Info
+
+Download the markdown file by pressing **Ctrl+m**
+
 ## Projects Used
 
  * [CodeMirror](https://codemirror.net/) - The code editor
@@ -27,7 +31,7 @@ You can use this editor to preview your markdown files before committing to GitH
 
 _In no particular order_
 
- * Download markdown file by pressing **Ctrl+m** or **Cmd+m**
+ * ~~Download markdown file by pressing **Ctrl+m**~~
  * Drag and drop markdown file to editor
  * Emojis support
 

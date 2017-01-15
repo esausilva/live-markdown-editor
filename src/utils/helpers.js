@@ -7,6 +7,10 @@ You can use this editor to preview your markdown files before committing to GitH
 
 Take a look at this project's [repo](https://github.com/esausilva/live-markdown-editor).
  
+## Useful Info
+
+Download the markdown file by pressing **Ctrl+m**
+
 ### Code samples
 
 JavaScript
@@ -31,13 +35,13 @@ html {
 }
 \`\`\`
 
-HTML
+### Tables
 
-\`\`\`html
-<div>
-    <h1>Hello World</h1>
-</div>
-\`\`\`
+| Tables   |      Are      |  Cool |
+|----------|:-------------:|------:|
+| col 1 is |  left-aligned | $1600 |
+| col 2 is |    centered   |   $12 |
+| col 3 is | right-aligned |    $1 |
 
 ## Projects Used
 
@@ -49,7 +53,7 @@ HTML
 
 _In no particular order_
 
- * Download markdown file by pressing **Ctrl+m** or **Cmd+m**
+ * ~~Download markdown file by pressing **Ctrl+m** or **Cmd+m**~~
  * Drag and drop markdown file to editor
  * Emojis support
 

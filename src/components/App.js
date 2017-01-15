@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import Editor from './Editor';
 import MarkedOutput from './MarkedOutput';
-import {InitialTextValue} from '../helpers';
+import {InitialTextValue} from '../utils/helpers';
 
 import '../styles/ribbon.css'
-import '../styles/MarkdownEditor.css';
+import '../styles/App.css';
 
-class MarkdownEditor extends Component {
+class App extends Component {
   state = {
     textarea: ''
   };
@@ -32,4 +32,4 @@ class MarkdownEditor extends Component {
   }
 }
 
-export default MarkdownEditor;
+export default App;

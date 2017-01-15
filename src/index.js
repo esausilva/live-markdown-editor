@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './styles/index.css';
-import MarkdownEditor from './components/MarkdownEditor';
+import App from './components/App';
 
-import './GoogleAnalytics'; // Remove after cloning
+import './utils/GoogleAnalytics'; // Remove after cloning
+import './utils/DownloadMarkdownFile';
 
 ReactDOM.render(
-  <MarkdownEditor />,
+  <App />,
   document.getElementById('root')
 );
