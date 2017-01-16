@@ -31,6 +31,7 @@
   overflow: auto;
 }
 
+/* Codemirror */
 .CodeMirror-cursor { border-left: 1px solid #5c5855; }
 
 /* Markdown Styles */
@@ -66,4 +67,12 @@ table th, table td {
 
 tbody tr:nth-child(even) {
   background-color: #f8f8f8;
+}
+
+/* Emojify */
+.emoji {
+  width: 1.4em;
+  height: 1.4em;
+  display: inline-block;
+  margin-top: -12px;
 }

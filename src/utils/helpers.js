@@ -11,6 +11,8 @@ Take a look at this project's [repo](https://github.com/esausilva/live-markdown-
 
 Download the markdown file by pressing **Ctrl+m**
 
+[Emojis](http://www.webpagefx.com/tools/emoji-cheat-sheet/) are cool :thumbsup: :poop: :sunny: :alien:
+
 ### Code samples
 
 JavaScript
@@ -48,6 +50,7 @@ html {
  * [CodeMirror](https://codemirror.net/) - The code editor
  * [marked](https://github.com/chjj/marked) - The markdown parser
  * [highlight.js](https://highlightjs.org/) - The syntax highlighter in the markdown output
+ * [emojify.js](http://hassankhan.me/emojify.js/) - Emoji support
 
 ## (Possible) Future Enhancements
 
@@ -55,7 +58,7 @@ _In no particular order_
 
  * ~~Download markdown file by pressing **Ctrl+m** or **Cmd+m**~~
  * Drag and drop markdown file to editor
- * Emojis support
+ * ~~Emojis support~~
 
 ## License
 
