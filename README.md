@@ -21,11 +21,14 @@ You can use this editor to preview your markdown files before committing to GitH
 
 Download the markdown file by pressing **Ctrl+m**
 
+[Emojis](http://www.webpagefx.com/tools/emoji-cheat-sheet/) are cool :thumbsup: :poop: :sunny: :alien:
+
 ## Projects Used
 
  * [CodeMirror](https://codemirror.net/) - The code editor
  * [marked](https://github.com/chjj/marked) - The markdown parser
  * [highlight.js](https://highlightjs.org/) - The syntax highlighter in markdown the output
+ * [emojify.js](http://hassankhan.me/emojify.js/) - Emoji support
  
 ## (Possible) Future Enhancements
 
@@ -33,7 +36,7 @@ _In no particular order_
 
  * ~~Download markdown file by pressing **Ctrl+m**~~
  * Drag and drop markdown file to editor
- * Emojis support
+ * ~~Emojis support~~
 
 ## License
 
