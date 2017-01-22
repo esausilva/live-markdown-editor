@@ -69,10 +69,70 @@ tbody tr:nth-child(even) {
   background-color: #f8f8f8;
 }
 
+li {
+  padding: 2px;
+}
+
 /* Emojify */
 .emoji {
   width: 1.4em;
   height: 1.4em;
   display: inline-block;
   margin-top: -12px;
+}
+
+/* File Input Upload */
+#fileInput {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
+
+#fileInput + label {
+  cursor: pointer;
+  display: inline-block;
+  overflow: hidden;
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  left: 0;
+  /*padding: 0.625rem 1.25rem;*/
+}
+
+#fileInput:focus + label {
+  outline: 1px dotted #000;
+  outline: -webkit-focus-ring-color auto 5px;
+}
+
+.inputfile + label * {
+  pointer-events: none;
+}
+
+#fileInput + label svg {
+  margin-top: -0.25em;
+  margin-right: 0.25em;
+}
+
+#fileInput + label figure {
+  width: 50px;
+  height: 50px;
+  background-color: #d3394c;
+  position: relative;
+  padding: 10px;
+  margin: 0;
+  border-radius: 50%;
+}
+
+#fileInput:focus + label figure,
+#fileInput + label:hover figure {
+  background-color: #722040;
+}
+
+#fileInput + label svg {
+  width: 100%;
+  height: 100%;
+  fill: #f1e5e6;
 }
