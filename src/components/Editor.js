@@ -27,7 +27,14 @@ class Editor extends Component {
     this.props.handleChange(this.editor.getValue())
   }
 
+  handleEmptyEditor = (e) => {
+    if (e.ctrlKey && e.keyCode === 69) {
+      this.editor.setValue('');
+    }
+  }
+
   componentDidMount() {
+    // code mirror setup
     this.editor = codemirror.fromTextArea(this.refEditor, {
       forceTextArea: true,
       mode: 'gfm',
@@ -38,6 +45,9 @@ class Editor extends Component {
       allowDropFileTypes: ['text/markdown']
     });
     this.editor.on('change', this.handleChange);
+
+    // empty editor
+    window.addEventListener('keyup', this.handleEmptyEditor);
   }
 
   render() {

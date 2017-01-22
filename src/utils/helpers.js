@@ -10,6 +10,7 @@ Take a look at this project's [repo](https://github.com/esausilva/live-markdown-
 ## Useful Info
 
  * Download the markdown file by pressing **Ctrl+m**
+ * Empty editor window by pressing **Ctrl+e**
  * [Emojis](http://www.webpagefx.com/tools/emoji-cheat-sheet/) are cool :thumbsup: :poop: :sunny: :alien:
  * Drag and Drop a markdown file to editor
  * Click on this icon ![UploadMd](http://i.imgur.com/7kCSgpzt.jpg) on the bottom left corner to browse and open a markdown file

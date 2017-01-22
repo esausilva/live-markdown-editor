@@ -13,6 +13,7 @@ class MarkedOutput extends Component {
   }
 
   componentWillMount() {
+    // set up marked
     marked.setOptions({
       highlight: function (code) {
         return hljs.highlightAuto(code).value;
