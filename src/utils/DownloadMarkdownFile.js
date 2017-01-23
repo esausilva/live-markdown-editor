@@ -34,6 +34,9 @@
     function handleDownloadMdFile (e) {
       //e.keyCode === 77 is 'm'
       if (e.ctrlKey && e.keyCode === 77) {
+        e.preventDefault();
+        e.stopPropagation();
+
         const blob = makeMdFile(mdArea.textContent);
         const link = document.createElement('a');
         const event = new MouseEvent('click');

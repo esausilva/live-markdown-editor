@@ -1,4 +1,5 @@
 import React, {Component, PropTypes} from 'react';
+import {matchMarkdown} from '../utils/helpers';
 
 import codemirror from 'codemirror';
 import 'codemirror/mode/gfm/gfm';
@@ -9,9 +10,9 @@ class Editor extends Component {
   handleInputFile = () => {
     const input = this.refFileInput;
     const file = input.files[0];
-    const textType = /markdown/;
+    const isMarkdown = matchMarkdown(file);
 
-    if (file.type.match(textType)) {
+    if (isMarkdown) {
       const reader = new FileReader();
       reader.onload = () => this.editor.setValue(reader.result);
       reader.readAsText(file);
@@ -28,7 +29,11 @@ class Editor extends Component {
   }
 
   handleEmptyEditor = (e) => {
-    if (e.ctrlKey && e.keyCode === 69) {
+    // keyCode 69 = e
+    if (e.ctrlKey && e.shiftKey && e.keyCode === 69) {
+      e.preventDefault();
+      e.stopPropagation();
+      
       this.editor.setValue('');
     }
   }
@@ -41,8 +46,7 @@ class Editor extends Component {
       lineNumbers: true,
       matchBrackets: true,
       lineWrapping: true,
-      tabSize: 2,
-      allowDropFileTypes: ['text/markdown']
+      tabSize: 2
     });
     this.editor.on('change', this.handleChange);
 
