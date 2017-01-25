@@ -13,7 +13,7 @@ Take a look at this project's [repo](https://github.com/esausilva/live-markdown-
  * Empty editor window by pressing **Ctrl+Shift+e**
  * [Emojis](http://www.webpagefx.com/tools/emoji-cheat-sheet/) are cool :thumbsup: :poop: :sunny: :alien:
  * Drag and Drop a markdown file to editor
- * Click on this icon ![UploadMd](http://i.imgur.com/7kCSgpzt.jpg) on the bottom left corner to browse and open a markdown file
+ * Click on this icon ![UploadMd](http://i.imgur.com/7kCSgpzt.jpg) on the bottom right corner to browse and open a markdown file
 
 ### Code samples
 
