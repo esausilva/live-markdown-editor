@@ -13,8 +13,9 @@
     "emojify.js": "^1.1.0",
     "highlight.js": "^9.9.0",
     "marked": "^0.3.6",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1"
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "scripts": {
     "start": "react-scripts start",

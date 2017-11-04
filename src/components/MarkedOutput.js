@@ -1,13 +1,17 @@
-import React, {Component, PropTypes} from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import marked from 'marked';
-
 import emojify from 'emojify.js';
-import 'emojify.js/dist/css/basic/emojify.min.css'
-
-import  '../styles/hljs-github.css';
 import hljs from 'highlight.js';
 
+import 'emojify.js/dist/css/basic/emojify.min.css';
+import '../styles/hljs-github.css';
+
 class MarkedOutput extends Component {
+  static propTypes = {
+    textarea: PropTypes.string
+  };
+
   emojis() {
     return emojify.run(document.getElementById('output'));
   }
@@ -15,7 +19,7 @@ class MarkedOutput extends Component {
   componentWillMount() {
     // set up marked
     marked.setOptions({
-      highlight: function (code) {
+      highlight: function(code) {
         return hljs.highlightAuto(code).value;
       }
     });
@@ -28,15 +32,14 @@ class MarkedOutput extends Component {
   componentDidUpdate(prevProps, prevState) {
     this.emojis();
   }
-  
+
   render() {
     return (
-      <div id='output' dangerouslySetInnerHTML={{__html: marked(this.props.textarea)}} />
+      <div
+        id="output"
+        dangerouslySetInnerHTML={{ __html: marked(this.props.textarea) }}
+      />
     );
-  }
-
-  static propTypes = {
-    textarea: PropTypes.string
   }
 }
 
