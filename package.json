@@ -5,8 +5,8 @@
   "author": "Esau Silva",
   "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^0.12.0",
-    "react-scripts": "0.8.4"
+    "gh-pages": "^1.0.0",
+    "react-scripts": "1.0.17"
   },
   "dependencies": {
     "codemirror": "^5.22.0",
