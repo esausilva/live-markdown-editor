@@ -5,17 +5,17 @@
   "author": "Esau Silva",
   "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "react-scripts": "1.0.17"
+    "gh-pages": "^2.0.1",
+    "react-scripts": "2.1.1"
   },
   "dependencies": {
-    "codemirror": "^5.22.0",
+    "codemirror": "^5.41.0",
     "emojify.js": "^1.1.0",
-    "highlight.js": "^9.9.0",
-    "marked": "^0.3.6",
-    "prop-types": "^15.6.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "highlight.js": "^9.13.1",
+    "marked": "^0.5.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,5 +37,11 @@
   "bugs": {
     "url": "https://github.com/esausilva/live-markdown-editor/issues"
   },
-  "homepage": "https://esausilva.github.io/live-markdown-editor/"
+  "homepage": "https://esausilva.github.io/live-markdown-editor/",
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
