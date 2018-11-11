@@ -14,8 +14,8 @@
     "highlight.js": "^9.13.1",
     "marked": "^0.5.1",
     "prop-types": "^15.6.2",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1"
+    "react": "16.7.0-alpha.0",
+    "react-dom": "16.7.0-alpha.0"
   },
   "scripts": {
     "start": "react-scripts start",

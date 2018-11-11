@@ -23,14 +23,14 @@ $ npm install
 - Empty editor window by pressing **Ctrl+Shift+e**
 - [Emojis](http://www.webpagefx.com/tools/emoji-cheat-sheet/) are cool :thumbsup: :poop: :sunny: :alien:
 - Drag and Drop a markdown file to editor
-- Click on this icon ![UploadMd](http://i.imgur.com/7kCSgpzt.jpg) on the bottom right corner to browse and open a markdown file
+- Click on this icon ![UploadMd](http://i.imgur.com/7kCSgpzt.jpg) on the bottom right corner to browse and open a markdown file (not working at the moment dues to Hooks Rewrite)
 
 ## Projects Used
 
 - [CodeMirror](https://codemirror.net/) - The code editor
 - [marked](https://github.com/chjj/marked) - The markdown parser
 - [highlight.js](https://highlightjs.org/) - The syntax highlighter in markdown the output
-- [emojify.js](http://hassankhan.me/emojify.js/) - Emoji support
+- [emojify.js](https://github.com/emojione/emojify.js/) - Emoji support
 
 ## License
 
