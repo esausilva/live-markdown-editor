@@ -9,7 +9,7 @@ import '../styles/App.css';
 
 class App extends Component {
   state = {
-    textarea: ''
+    textarea: '',
   };
 
   componentWillMount() {

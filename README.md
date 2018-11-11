@@ -6,12 +6,12 @@ You can use this editor to preview your markdown files before committing to GitH
 
 ## Local Installation
 
- Clone this repo, or download it into a directory of your choice then:
+Clone this repo, or download it into a directory of your choice then:
 
- ```bash
- $ npm install -g create-react-app
- $ npm install
- ```
+```bash
+$ npm install -g create-react-app
+$ npm install
+```
 
 ## Live Demo
 
@@ -19,19 +19,19 @@ You can use this editor to preview your markdown files before committing to GitH
 
 ## Useful Info
 
- * Download the markdown file by pressing **Ctrl+m**
- * Empty editor window by pressing **Ctrl+Shift+e**
- * [Emojis](http://www.webpagefx.com/tools/emoji-cheat-sheet/) are cool :thumbsup: :poop: :sunny: :alien:
- * Drag and Drop a markdown file to editor
- * Click on this icon ![UploadMd](http://i.imgur.com/7kCSgpzt.jpg) on the bottom right corner to browse and open a markdown file
+- Download the markdown file by pressing **Ctrl+m**
+- Empty editor window by pressing **Ctrl+Shift+e**
+- [Emojis](http://www.webpagefx.com/tools/emoji-cheat-sheet/) are cool :thumbsup: :poop: :sunny: :alien:
+- Drag and Drop a markdown file to editor
+- Click on this icon ![UploadMd](http://i.imgur.com/7kCSgpzt.jpg) on the bottom right corner to browse and open a markdown file
 
 ## Projects Used
 
- * [CodeMirror](https://codemirror.net/) - The code editor
- * [marked](https://github.com/chjj/marked) - The markdown parser
- * [highlight.js](https://highlightjs.org/) - The syntax highlighter in markdown the output
- * [emojify.js](http://hassankhan.me/emojify.js/) - Emoji support
+- [CodeMirror](https://codemirror.net/) - The code editor
+- [marked](https://github.com/chjj/marked) - The markdown parser
+- [highlight.js](https://highlightjs.org/) - The syntax highlighter in markdown the output
+- [emojify.js](http://hassankhan.me/emojify.js/) - Emoji support
 
 ## License
 
-MIT © 2017 Esau Silva
+MIT © 2018 Esau Silva

@@ -10,7 +10,7 @@ import 'codemirror/theme/base16-light.css';
 
 class Editor extends Component {
   static propTypes = {
-    textarea: PropTypes.string
+    textarea: PropTypes.string,
   };
 
   componentDidMount() {
@@ -21,7 +21,7 @@ class Editor extends Component {
       lineNumbers: true,
       matchBrackets: true,
       lineWrapping: true,
-      tabSize: 2
+      tabSize: 2,
     });
     this.editor.on('change', this.handleChange);
 

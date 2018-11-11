@@ -1,20 +1,16 @@
-/*
-
-github.com style (c) Vasily Polovnyov <vast@whiteants.net>
-
-*/
+/*github.com style (c) Vasily Polovnyov <vast@whiteants.net>*/
 
 pre code {
   display: block;
   overflow-x: auto;
   padding: 0.5em;
   color: #333;
-  background: #F7F7F7;
+  background: #f7f7f7;
   border-radius: 3px;
 }
 
 p code {
-  background: #F5F5F5;
+  background: #f5f5f5;
   border-radius: 3px;
   padding: 2px;
 }

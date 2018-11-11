@@ -1,4 +1,4 @@
-export function InitialTextValue () {
+export function InitialTextValue() {
   return `# Live Markdown Editor
 
 > Responsive GitHub flavored markdown editor built with [React.js](https://facebook.github.io/react/)
@@ -56,22 +56,35 @@ html {
 
 ## License
 
-MIT © 2017 Esau Silva
+MIT © 2018 Esau Silva
 `;
 }
 
-export function matchMarkdown (file) {
-    const textType = /markdown/;
-    // strange, in Windows 'file.type' yeilds empty string
-    // so going with file extension if 'file.type' is empty
-    const fileName = file.name.split('.');
-    const fileExtension = fileName[fileName.length-1];
-    const markdownExtensions = ['markdown','mdown','mkdn','mkd','md','mdwn','mdtxt','mdtext','text','Rmd'];
-    const isExtMatch = markdownExtensions.some(ext => ext.match(new RegExp(`^${fileExtension}$`,'i')));
+export function matchMarkdown(file) {
+  const textType = /markdown/;
+  // strange, in Windows 'file.type' yeilds empty string
+  // so going with file extension if 'file.type' is empty
+  const fileName = file.name.split('.');
+  const fileExtension = fileName[fileName.length - 1];
+  const markdownExtensions = [
+    'markdown',
+    'mdown',
+    'mkdn',
+    'mkd',
+    'md',
+    'mdwn',
+    'mdtxt',
+    'mdtext',
+    'text',
+    'Rmd',
+  ];
+  const isExtMatch = markdownExtensions.some(ext =>
+    ext.match(new RegExp(`^${fileExtension}$`, 'i')),
+  );
 
-    if (file.type.match(textType) || isExtMatch) {
-        return true;
-    }
+  if (file.type.match(textType) || isExtMatch) {
+    return true;
+  }
 
-    return false;
+  return false;
 }

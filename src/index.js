@@ -6,7 +6,4 @@ import App from './components/App';
 import './utils/GoogleAnalytics'; // Remove after cloning
 import './utils/DownloadMarkdownFile';
 
-ReactDOM.render(
-  <App />,
-  document.getElementById('root')
-);
+ReactDOM.render(<App />, document.getElementById('root'));

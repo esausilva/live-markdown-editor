@@ -4,12 +4,12 @@
     var oldOnLoad = window.onload;
 
     if (typeof window.onload !== 'function') {
-      window.onload = func
-    } else { 
-      window.onload = function () {
+      window.onload = func;
+    } else {
+      window.onload = function() {
         oldOnLoad();
         func();
-      }
+      };
     }
   }
 
@@ -18,7 +18,7 @@
     let mdFile = null;
 
     const makeMdFile = function(code) {
-      const blob = new Blob([code], {type: 'text/plain'});
+      const blob = new Blob([code], { type: 'text/plain' });
 
       // If we are replacing a previously generated file we need to
       // manually revoke the object URL to avoid memory leaks.
@@ -29,9 +29,9 @@
       mdFile = window.URL.createObjectURL(blob);
 
       return mdFile;
-    }
+    };
 
-    function handleDownloadMdFile (e) {
+    function handleDownloadMdFile(e) {
       //e.keyCode === 77 is 'm'
       if (e.ctrlKey && e.keyCode === 77) {
         e.preventDefault();
@@ -40,7 +40,7 @@
         const blob = makeMdFile(mdArea.textContent);
         const link = document.createElement('a');
         const event = new MouseEvent('click');
-        
+
         link.setAttribute('href', blob);
         link.setAttribute('download', 'README.md');
         link.dispatchEvent(event);

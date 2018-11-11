@@ -9,7 +9,7 @@ import '../styles/hljs-github.css';
 
 class MarkedOutput extends Component {
   static propTypes = {
-    textarea: PropTypes.string
+    textarea: PropTypes.string,
   };
 
   emojis() {
@@ -21,7 +21,7 @@ class MarkedOutput extends Component {
     marked.setOptions({
       highlight: function(code) {
         return hljs.highlightAuto(code).value;
-      }
+      },
     });
   }
 
