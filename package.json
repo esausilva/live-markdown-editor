@@ -9,13 +9,13 @@
     "react-scripts": "2.1.1"
   },
   "dependencies": {
-    "codemirror": "^5.42.2",
+    "codemirror": "^5.48.0",
     "emojify.js": "^1.1.0",
-    "highlight.js": "^9.13.1",
-    "marked": "^0.5.2",
-    "prop-types": "^15.6.2",
-    "react": "^16.7.0-alpha.2",
-    "react-dom": "^16.7.0-alpha.2"
+    "highlight.js": "^9.15.8",
+    "marked": "^0.6.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "scripts": {
     "start": "react-scripts start",
