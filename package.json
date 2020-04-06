@@ -5,17 +5,17 @@
   "author": "Esau Silva",
   "license": "MIT",
   "devDependencies": {
-    "gh-pages": "^2.0.1",
-    "react-scripts": "2.1.1"
+    "gh-pages": "^2.2.0",
+    "react-scripts": "3.2.0"
   },
   "dependencies": {
-    "codemirror": "^5.48.0",
+    "codemirror": "^5.52.2",
     "emojify.js": "^1.1.0",
-    "highlight.js": "^9.15.8",
-    "marked": "^0.6.2",
+    "highlight.js": "^9.18.1",
+    "marked": "^0.8.2",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
   "scripts": {
     "start": "react-scripts start",
